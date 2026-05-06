@@ -1,0 +1,22 @@
+if SHIELD_SPLITSHOCK46_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "splitshock46"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SPLITSHOCK46_LEFT || SHIELD_SPLITSHOCK46_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+config EC11
+    default y
+
+config EC11_TRIGGER_GLOBAL_THREAD
+    default y
+
+endif

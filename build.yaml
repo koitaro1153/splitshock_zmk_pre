@@ -1,0 +1,10 @@
+include:
+  - board: nice_nano_v2
+    shield: splitshock46_left
+    artifact-name: splitshock46_left
+  - board: nice_nano_v2
+    shield: splitshock46_right
+    artifact-name: splitshock46_right
+  - board: nice_nano_v2
+    shield: settings_reset
+    artifact-name: splitshock46_settings_reset
